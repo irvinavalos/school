@@ -1,0 +1,65 @@
+\section{Information Theory}
+
+\begin{definition}[Entropy]
+
+  \begin{displaymath}
+    H(X) = \E\left[-\log_2 p(x)\right] = \sum_{x \in X} -p(x) \log_2 p(x)
+  \end{displaymath}
+
+  If $X \sim B(p)$, then
+
+  \begin{displaymath}
+    H(X) = p -\log_2 p + (1 - p) \log_2 (1 - p) \triangleq h(p)
+  \end{displaymath}
+
+  called the \textbf{binary entropy function}.
+
+\end{definition}
+
+\begin{definition}[Joint Entropy]
+  
+  \begin{displaymath}
+    H(X,Y) = \E\left[-\log_2 p(x,y)\right] = \sum_{x} \sum_{y} -p_{x,y}(x,y) \log_2 p(x,y)
+  \end{displaymath}
+
+  If $X,Y$ are independent, then $H(X,Y) = H(X) + H(Y)$.
+
+  \begin{proof}
+    
+    \begin{align*}
+      H(X,Y) &= \E\left[-\log_2 p(x,y)\right] \\
+             &= \E\left[-\log_2 p(x)\ p(y)\right] \\
+             &= \E\left[-\log_2 p(x) -\log_2 p(y)\right] \\
+             &= \E\left[-\log_2 p(x)\right] + \E\left[-\log_2 p(y)\right] \\
+             &= H(X) + H(Y)
+    \end{align*}
+    
+  \end{proof}
+  
+\end{definition}
+
+\begin{definition}[Conditional Entropy]
+  
+  \begin{displaymath}
+    H(Y \mid X) = \E_{XY}\left[-\log_2 p(y \mid x)\right] H(X,Y) - H(X)
+  \end{displaymath}
+  
+\end{definition}
+
+\begin{definition}[Mutual Information]
+  
+  \begin{align*}
+    I(X;Y) &\triangleq H(X) - H(X \mid Y) \\
+           &= H(Y) - H(Y \mid X) \\
+           &= H(X) + H(Y) - H(X,Y)
+  \end{align*}
+  
+\end{definition}
+
+\begin{theorem}[Asymptotic Equipartition]
+  If $X_1, X_2, \ldots, X_n$ are $\textrm{iid} \sim p(X)$, then
+  \begin{displaymath}
+    \frac{-\log_2 p(X_1,X_2,\ldots,X_n)}{n} \overset{p}{\longrightarrow} H(X)
+  .\end{displaymath}
+  
+\end{theorem}
