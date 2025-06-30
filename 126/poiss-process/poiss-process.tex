@@ -1,8 +1,8 @@
 \section{Poisson Proceess}
 
 A \underline{Poisson process} is the continuous time analog of
-``coin flipping'' or Bernoulli processes. This makes it a good model for
-arrival processes: photons hitting a detector, packets in a network,
+``coin flipping'' (or Bernoulli) processes. This makes it a good model
+for arrival processes: photons hitting a detector, packets in a network,
 number of emails per hour, etc.
 
 \begin{center}
@@ -38,13 +38,13 @@ $S_1,S_2,\ldots,S_n \overset{\textrm{iid}}{\sim} Exponential(\lambda)$.
 Thus, every $S_i$ has the probability density function
 
 \begin{displaymath}
-  f_{S_i}(t) = \lambda e^{\lambda t};\ t > 0;\ i=1,2,3,\ldots
+  f_{S_i}(t) = \lambda e^{\lambda t};\ t > 0;\quad i=1,2,3,\ldots
 \end{displaymath}
 
 and cumulative distribution function
 
 \begin{displaymath}
-  F_{S_i}(t) = 1 - e^{-\lambda t}
+  F_{S_i}(t) = 1 - e^{-\lambda t};\quad i = 1,2,3,\ldots
   .
 \end{displaymath}
 
@@ -176,7 +176,7 @@ interval $(t_{n+1} - t_n)$.
           \fill [blue!10] (0,0) -- (3,0) -- (3,3) -- cycle;
         \end{tikzpicture}
       \end{center}
-      From the image above we know that 
+      From the image above we know that
       $\Prb(t_1 \le t_2) + \Prb(t_2 < t_1) = 1$. Thus,
       $\Prb(t_1 < t_2) = \frac{1}{2} = \frac{1}{2!}$ which generalizes
       to $k$ dimensions.
