@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751319250.28806 "126.tex" "126.pdf" "126" 1751319251.33607 0
+["pdflatex"] 1751669198.7815 "126.tex" "126.pdf" "126" 1751669199.62216 0
   "/usr/share/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1742685315 3877 2ca811886181a05a861d20a35de75e06 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc" 1742685315 2688 c4453cc5ea1d5eadb4ed2ca5fa23d7e7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1742685315 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -118,9 +118,9 @@
   "/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty" 1742685315 88370 c780f23aea0ece6add91e09b44dca2cd ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty" 1742685315 4474 23ca1d3a79a57b405388059456d0a8df ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty" 1742685315 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
-  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1742685315 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/share/texmf-dist/tex/latex/base/fontenc.sty" 1742685315 5275 0d62fb62162c7ab056e941ef18c5076d ""
   "/usr/share/texmf-dist/tex/latex/base/ifthen.sty" 1742685315 5525 9dced5929f36b19fa837947f5175b331 ""
+  "/usr/share/texmf-dist/tex/latex/base/report.cls" 1742685315 23203 7ac64169eac711b8259b91f4833984f3 ""
   "/usr/share/texmf-dist/tex/latex/base/size12.clo" 1742685315 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
   "/usr/share/texmf-dist/tex/latex/base/textcomp.sty" 1742685315 2846 e26604d3d895e65d874c07f30c291f3f ""
   "/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty" 1742685315 1360 df2086bf924b14b72d6121fe9502fcdb ""
@@ -173,12 +173,16 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1750115860 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1750115797 2008245 5b12a82d5951d47dbe5cb87ff5cad147 ""
-  "126.aux" 1751319251.14833 242 eb13bd6fc2b9d35328df76c65fc63577 "pdflatex"
-  "126.tex" 1750501168.70097 639 f8cb0c611fbcc495c2388d89d27b13a4 ""
-  "info-theory/info-theory.tex" 1750456583.29099 1601 717c83a48f676dfdc76aa0c1c5614bf4 ""
-  "poiss-process/poiss-process.tex" 1751319248.28425 7178 ac3fbe850da701b2bf20a58f8e7809e8 ""
+  "126.aux" 1751669199.52642 767 0aa450163e435883bd407ac61403bc14 "pdflatex"
+  "126.tex" 1751666092.57159 938 12f2cbcbdb3b1a2379ce71799809df27 ""
+  "info-theory/info-theory.tex" 1751596425.35849 1601 3a028dc20c67c119731d8a399254b073 ""
+  "poiss-process/poiss-process.tex" 1751596413.42339 7178 a394757bd2cbf564d6fb93305a459e38 ""
+  "statistical-inference/point-estimations/point-estimations.aux" 1751669199.52448 675 94cb518a0de33590ab06b5fcc9ebed64 "pdflatex"
+  "statistical-inference/point-estimations/point-estimations.tex" 1751669198.66548 3141 8be2e5c6c824242bada2f0b7deaec907 ""
+  "statistical-inference/statistical-inference.tex" 1751667841.94623 1861 284bc82588a9baac499abad2e7d878d0 ""
   (generated)
   "126.aux"
   "126.log"
   "126.pdf"
+  "statistical-inference/point-estimations/point-estimations.aux"
   (rewritten before read)

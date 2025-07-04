@@ -1,0 +1,44 @@
+\chapter{Statistical Inference}
+
+\section{Detection \& Bayes' Theorem}
+
+Consider $N$ possible exclusive causes of a particular health symptom.
+
+\begin{center}
+  \begin{tikzpicture}[
+      >=latex,
+      node/.style={
+        draw,circle,minimum size=0.8cm,inner sep=0pt
+      },
+    ]
+    \node[node] (pr) at (0,0) {};
+    \node[node,color=blue] (c1) at (3,2) {$C_1$};
+    \node[node,color=blue] (c2) at (3,0) {$C_2$};
+    \node[,color=blue] (dots) at (3,-1) {$\vdots$};
+    \node[node,color=blue] (cn) at (3,-2) {$C_n$};
+    \node[node,color=purple] (s) at (6,0) {$S$};
+    \draw[thick,->,color=orange] (pr) -- (c1) node[anchor=south,midway] {$p_1$};
+    \draw[thick,->,color=orange] (pr) -- (c2) node[anchor=south,midway] {$p_2$};
+    \draw[thick,->,color=orange] (pr) -- (cn) node[anchor=south,midway] {$p_n$};
+    \draw[thick,->,color=green] (c1) -- (s) node[anchor=south,midway] {$q_1$};
+    \draw[thick,->,color=green] (c2) -- (s) node[anchor=south,midway] {$q_2$};
+    \draw[thick,->,color=green] (cn) -- (s) node[anchor=south,midway] {$q_n$};
+  \end{tikzpicture}
+\end{center}
+
+\begin{itemize}
+  \item Each cause $i$ has a prior probability $p_i$ and it has a
+    probability $q_i$ of causing the observed symptom.
+  \item We want to esimate the \underline{posterior probability}
+    $\pi_i$ of cause $i$ given the symptom $S$,
+    \begin{equation*}
+      \pi_i = \Prb\left(C_i \mid S\right) = \frac{\Prb\left(C_i \cap S\right)}{\Prb\left(S\right)} = \frac{\Prb\left(S \mid C_i\right)\ \Prb\left(C_i\right)}{\sum_{j} \Prb\left(S \mid C_j\right)\ P\left(C_j\right)}
+    .\end{equation*}
+    From the diagram above the posterior distribution for cause $i$
+    can be simplified to
+    \begin{equation}
+      \pi_i = \frac{q_i\ p_i}{\sum_j q_j\ p_j}
+    .\end{equation}
+\end{itemize}
+
+\include{statistical-inference/point-estimations/point-estimations.tex}

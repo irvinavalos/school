@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 
 % Margin
 
@@ -10,10 +10,16 @@
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{definition}[theorem]{Defintion}
+\newtheorem{example}{Example}[section]
 
 \DeclareMathOperator{\E}{\mathrm{E}}
 \DeclareMathOperator{\Var}{\mathrm{Var}}
 \DeclareMathOperator{\Prb}{\mathrm{P}}
+\DeclareMathOperator{\MAP}{\mathrm{MAP}}
+\DeclareMathOperator{\MLE}{\mathrm{MLE}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator{\BSC}{\mathrm{BSC}}
 
 % Tikz
 
@@ -36,5 +42,6 @@
 
 \input{info-theory/info-theory.tex}
 \input{poiss-process/poiss-process.tex}
+\input{statistical-inference/statistical-inference.tex}
 
 \end{document}
