@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751669198.7815 "126.tex" "126.pdf" "126" 1751669199.62216 0
+["pdflatex"] 1751775299.07032 "126.tex" "126.pdf" "126" 1751775300.20768 0
   "/usr/share/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc" 1742685315 3877 2ca811886181a05a861d20a35de75e06 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc" 1742685315 2688 c4453cc5ea1d5eadb4ed2ca5fa23d7e7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1742685315 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -173,12 +173,14 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1750115860 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1750115797 2008245 5b12a82d5951d47dbe5cb87ff5cad147 ""
-  "126.aux" 1751669199.52642 767 0aa450163e435883bd407ac61403bc14 "pdflatex"
-  "126.tex" 1751666092.57159 938 12f2cbcbdb3b1a2379ce71799809df27 ""
+  "126.aux" 1751775300.07319 1065 c7ec0a88cdfabf2f412a3b2cd08fe4af "pdflatex"
+  "126.tex" 1751771735.69665 974 1a961db8cc35de336a8dec1a3aabaeaa ""
   "info-theory/info-theory.tex" 1751596425.35849 1601 3a028dc20c67c119731d8a399254b073 ""
   "poiss-process/poiss-process.tex" 1751596413.42339 7178 a394757bd2cbf564d6fb93305a459e38 ""
-  "statistical-inference/point-estimations/point-estimations.aux" 1751669199.52448 675 94cb518a0de33590ab06b5fcc9ebed64 "pdflatex"
-  "statistical-inference/point-estimations/point-estimations.tex" 1751669198.66548 3141 8be2e5c6c824242bada2f0b7deaec907 ""
+  "probability/discrete-random-variables.tex" 1751775296.77419 2403 696d6b27b1b11c93b2cbb5f8cfe016fe ""
+  "probability/probability.tex" 1751772064.44876 192 33b962751c756c33fb250de89a8ab78f ""
+  "statistical-inference/point-estimations/point-estimations.aux" 1751775300.07319 676 b6944bca3a732d81c84044e0f3891b36 "pdflatex"
+  "statistical-inference/point-estimations/point-estimations.tex" 1751669280.74877 3141 8be2e5c6c824242bada2f0b7deaec907 ""
   "statistical-inference/statistical-inference.tex" 1751667841.94623 1861 284bc82588a9baac499abad2e7d878d0 ""
   (generated)
   "126.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.6.16)  4 JUL 2025 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.6.16)  5 JUL 2025 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -684,93 +684,101 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (./info-theory/info-theory.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (./probability/probability.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 3.
+(Font)              scaled to size 12.0pt on input line 2.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
+(Font)              scaled to size 8.8pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
+(Font)              scaled to size 6.6pt on input line 2.
+(./probability/discrete-random-variables.tex
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 1.
+LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input line 3.
+ (/usr/share/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
+)
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
-LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 8.8pt on input line 5.
-LaTeX Font Info:    Font shape `OT1/minzpl/m/n' will be
-(Font)              scaled to size 6.6pt on input line 5.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 8.8pt on input line 60.
+(Font)              scaled to size 8.8pt on input line 17.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 6.6pt on input line 60.
+(Font)              scaled to size 6.6pt on input line 17.
 
 
 [1
 
-{/usr/share/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]) (./poiss-process/poiss-process.tex
+{/usr/share/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newpx/px-lms.enc}])) (./info-theory/info-theory.tex
 
 [2]
 Chapter 2.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 15.
+
+
+[3
+
+]) (./poiss-process/poiss-process.tex
+
+[4]
+Chapter 3.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 37.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 37.
 
 
-[3
+[5
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input line 64.
- (/usr/share/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
-File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
-)
-LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 64.
+
+[6]) (./statistical-inference/statistical-inference.tex
+
+[7]
+Chapter 4.
 
 
-[4{/usr/share/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}]) (./statistical-inference/statistical-inference.tex
-
-[5]
-Chapter 3.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 3.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 3.
-
-
-[6
+[8
 
 ]
 \openout2 = `statistical-inference/point-estimations/point-estimations.aux'.
 
  (./statistical-inference/point-estimations/point-estimations.tex
 
-[7
+[9
 
 ])
 
-[8]) (./126.aux (./statistical-inference/point-estimations/point-estimations.aux))
+[10]) (./126.aux (./statistical-inference/point-estimations/point-estimations.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17947 strings out of 475171
- 331707 string characters out of 5767095
- 682995 words of memory out of 5000000
- 40573 multiletter control sequences out of 15000+600000
+ 17967 strings out of 475171
+ 332261 string characters out of 5767095
+ 682998 words of memory out of 5000000
+ 40586 multiletter control sequences out of 15000+600000
  631523 words of font info for 130 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 102i,9n,107p,384b,814s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,107p,384b,814s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/share/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on 126.pdf (9 pages, 194365 bytes).
+Output written on 126.pdf (11 pages, 204899 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
